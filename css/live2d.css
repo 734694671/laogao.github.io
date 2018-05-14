@@ -10,6 +10,9 @@
     transition: all .3s ease-in-out;
 }
 
+.post-copyright-info{
+    max-width: 100%;
+}
 #live2d {
     position: relative;
 }
