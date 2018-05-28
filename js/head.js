@@ -33,7 +33,7 @@ $(function () {
   $('body').append(`<script type="text/javascript" src="https://blog.xiqing520.com/js/live.min.js"></script>`);
   $('body').append(`<script type="text/javascript" src="https://blog.xiqing520.com/js/message.js"></script>`);
     let lastId=Math.ceil(Math.random()*20);
-    let src='http://api.fghrsh.net/live2d/get/?id=6-'+lastId;
+    let src='https://api.fghrsh.net/live2d/get/?id=6-'+lastId;
     // let src="../../static/live2d/live2d-widget-model-nipsilon/assets/nipsilon.model.json"
     loadlive2d("live2d", src);
 
