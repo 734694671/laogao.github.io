@@ -28,10 +28,10 @@ $(function () {
                         <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
                         <div class="hide-button">隐藏</div>
                     </div>`);
-  $('head').append(`<link rel="stylesheet" href="http://blog.xiqing520.com/css/live2d.css" />`);
+  $('head').append(`<link rel="stylesheet" href="https://blog.xiqing520.com/css/live2d.css" />`);
 
-  $('body').append(`<script type="text/javascript" src="http://blog.xiqing520.com/js/live.min.js"></script>`);
-  $('body').append(`<script type="text/javascript" src="http://blog.xiqing520.com/js/message.js"></script>`);
+  $('body').append(`<script type="text/javascript" src="https://blog.xiqing520.com/js/live.min.js"></script>`);
+  $('body').append(`<script type="text/javascript" src="https://blog.xiqing520.com/js/message.js"></script>`);
     let lastId=Math.ceil(Math.random()*20);
     let src='http://api.fghrsh.net/live2d/get/?id=6-'+lastId;
     // let src="../../static/live2d/live2d-widget-model-nipsilon/assets/nipsilon.model.json"
