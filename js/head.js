@@ -23,6 +23,9 @@ $(function () {
       }
     }
   })
+  if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
+      return false;
+  }
   $('body').prepend(`<div id="landlord">
                         <div class="message" style="opacity:0"></div>
                         <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
